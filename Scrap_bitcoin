@@ -1,0 +1,15 @@
+# scrapping for Bitcoin
+"""
+Let's say 
+https://coinmarketcap.com/currencies/bitcoin/ratings/
+
+inspect ROI
+
+Is the class "cmc--change-positive" is good class to use?
+It is because in other currencies othr than bitcoin, there may be a negative change. so it is not a good class to use. 
+
+Also, the question mark is also not a good class to use because it is linked
+to different website, leading to potential errors of getting accurate numbers. 
+I recommend you to study beautiful soup.
+
+"""
