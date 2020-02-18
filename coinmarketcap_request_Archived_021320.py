@@ -17,7 +17,7 @@ for i in range(5):
 	html = response.read()#saving the text part of the page in this variable
 	f.write(html)#making sure that the file name will be different everytime that we save the file.
 	f.close()
-	time.sleep(10)#the time is in seconds and increase the number to avoid website blockage
+	time.sleep(5)#the time is in seconds and increase the number to avoid website blockage
 
 
 
@@ -26,13 +26,3 @@ for i in range(5):
 
 
 
-
-
-"""
-02/13/2020
-
-We will see the rank of the hyperlink. 
-[inspect] in the website on the hyperlink.
-Go to parse file
-
-"""
